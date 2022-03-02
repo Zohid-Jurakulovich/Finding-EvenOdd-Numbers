@@ -1,0 +1,16 @@
+.element{
+  display: flex;
+  flex-direction: column;
+
+}
+.title{
+  margin-top: 25px;
+  text-align: center;
+}
+
+.result{
+ display: inline-block;
+ margin: 0 auto;
+ padding: 15px;
+ font-size: 35px;
+}
