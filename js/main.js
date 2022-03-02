@@ -12,14 +12,14 @@ elForm.addEventListener("submit", function (evt){
   
   
   if(elInputValue % 2 === 0 ){
-    elResult.textContent = elInputValue + "  juft son";
+    elResult.textContent = elInputValue + "  is even number";
     evenNumbers.push(elInputValue);
     console.log(evenNumbers);
     elInput.value = "";
     
     return;
   }else{
-    elResult.textContent = elInputValue + " toq son";
+    elResult.textContent = elInputValue + " is odd number";
     oddNumbers.push(elInputValue);
     console.log(oddNumbers);
     elInput.value = "";
